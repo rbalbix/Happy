@@ -1,2 +1,1 @@
-// export { default as ClassesController } from './ClassesController';
-// export { default as ConnectionsController } from './ConnectionsController';
+export { default as OrphanagesController } from './OrphanagesController';

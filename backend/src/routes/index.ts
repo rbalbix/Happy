@@ -1,13 +1,11 @@
 import { Router } from 'express';
-import ClassesRouter from './ClassesRouter';
-import ConnectionsRouter from './ConnectionsRouter';
+import OrphanagesRouter from './OrphanagesRouter';
 
 // Init router and path
 const router = Router();
 
 // Add sub-routes
-router.use('/classes', ClassesRouter);
-router.use('/connections', ConnectionsRouter);
+router.use('/orphanages', OrphanagesRouter);
 
 // Export the base-router
 export default router;
