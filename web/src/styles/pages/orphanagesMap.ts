@@ -45,6 +45,40 @@ export const Container = styled.div`
   leaflet-container {
     z-index: 1;
   }
+
+  .map-popup {
+    .leaflet-popup-content-wrapper {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 2rem;
+    }
+
+    .leaflet-popup-content {
+      color: #0089a5;
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 0.8rem 1.2rem;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      a {
+        width: 4rem;
+        height: 4rem;
+        background: #15c3d6;
+        box-shadow: 1.72868rem 2.76589rem 4.14884 rgba(23, 142, 166, 0.16);
+        border-radius: 1.2rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .leaflet-popup-tip-container {
+      display: none;
+    }
+  }
 `;
 
 export const CreateOrphanage = styled(Link)`

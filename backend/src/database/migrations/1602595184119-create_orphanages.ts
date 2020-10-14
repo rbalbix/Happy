@@ -15,6 +15,10 @@ export class createOrphanages1602595184119 implements MigrationInterface {
             generationStrategy: 'increment',
           },
           {
+            name: 'name',
+            type: 'varchar',
+          },
+          {
             name: 'latitude',
             type: 'decimal',
             scale: 10,
